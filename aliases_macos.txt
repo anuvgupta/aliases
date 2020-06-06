@@ -1,0 +1,68 @@
+FINDER
+cmd+up      =  up one ../
+cmd+opt+V   =  move copied files
+cmd+ctrl+O  =  open current/selected folder in new window
+
+VSCODE
+cmd+shift+N   =  new window
+cmd+shift+P   =  command palette
+cmd+opt+L     =  format document
+cmd+opt+P     =  open project
+ctrl + ~      =  show terminal
+
+CHROME
+cmd+Y           =  history
+cmd+shift+del   =  clear data
+cmd+shift+J     =  downloads
+cmd+D           =  bookmark
+cmd+shift+N     =  incognito tab
+cmd+opt+I       =  developer tools
+cmd+opt+B       =  bookmark manager
+
+ITUNES
+cmd+N        =  new playlist
+cmd+opt+N    =  new smart playlist
+cmd+I        =  get info
+cmd+opt+M    =  toggle miniplayer
+cmd+shift+M  =  toggle miniplayer mode
+cmd+T        =  show visualizer
+
+TERMINAL
+c            =  clear + pwd
+cl           =  clear + pwd + ls
+cll          =  clear + pwd + ll
+ll           =  list all files & sort by size
+ll           =  list all files & sort by time
+l.           =  list hidden files
+..           =  up one ../
+...          =  up two ../../
+....         =  up three ../../../
+mkd <path>   =  make directory (nested)
+mkcd <path>  =  make directory (nested) and enter
+tf           =  realtime tail & follow file
+ipi          =  get internal ip
+ifl          =  get internal ip (with info)
+ipe          =  get external ip
+http [port]  =  start server on port [8000]
+psa          =  list all processes
+psg <name>   =  search process list
+pg <name>    =  search PIDs (by process name)
+k <pid>      =  send SIGTERM to PID
+k9 <pid>     =  send SIGKILL to PID
+ka <name>    =  send SIGTERM to process (by name)
+p            =  list all ports
+pl           =  list listening ports
+po           =  list open ports
+p <port>     =  list processes using port
+ytmp4 <vid>  =  download and convert YouTube video to mp4 (best quality video+audio)
+ytmp3 <vid>  =  download and convert YouTube video to mp3 (best quality audio @ 320kbps)
+ytm4a <vid>  =  download and convert YouTube video to m4a (best quality audio @ 320kbps)
+yt320 <vid>  =  same as ytmp3
+d            =  get date
+t            =  get time
+now          =  same as t
+br           =  reload bash profile
+zr           =  reload zsh profile
+flac2mp3 <f> =  convert flac audio file to mp3 @ 320kbps
+aliases      =  display contents of this file
+_aliases     =  display contents of the aliases script
