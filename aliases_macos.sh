@@ -81,3 +81,6 @@ alias yt320='ytmp3'
 
 # ffmpeg
 alias flac2mp3='flac2mp3_temp() { ffmpeg -i "$1" -ab 320k -map_metadata 0 -id3v2_version 3 "$2"; }; flac2mp3_temp'
+
+# chrome
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --ignore-certificate-errors &> /dev/null &'

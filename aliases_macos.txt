@@ -64,5 +64,6 @@ now          =  same as t
 br           =  reload bash profile
 zr           =  reload zsh profile
 flac2mp3 <f> =  convert flac audio file to mp3 @ 320kbps
+chrome       =  open google chrome in insecure mode
 aliases      =  display contents of this file
 _aliases     =  display contents of the aliases script
